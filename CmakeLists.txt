@@ -8,6 +8,12 @@ add_executable(main
   include/Window.cpp
   include/Events.h
   include/Events.cpp
+  src/graphics/Shader.h
+  src/graphics/Shader.cpp
+  src/graphics/Texture.h
+  src/graphics/Texture.cpp
+  src/graphics/png_loader.h
+  src/graphics/png_loader.cpp
 )
 
 set(glfw3_DIR "C:/vcpkg/installed/x86-windows/share/glfw3" )
